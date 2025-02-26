@@ -1,0 +1,89 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(20, 20, 35);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(30, 30, 50);
+  padding: 25px;
+  font-size: 45px;
+}
+
+main {
+  padding: 10px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nome-e-descricao {
+  margin-block: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.nome {
+  padding-bottom: 10px;
+}
+
+.futuro-prog {
+  font-size: 1.2rem
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 5px solid rgb(225, 227, 224);
+}
+
+.sobre-mim {
+  border-radius: 10px;
+  max-width: 650px;
+  box-shadow: 0px 5px 10px 5px rgb(10, 10, 25);
+  background-color: rgb(25, 25, 40);
+  padding: 15px;
+  margin: 20px 5px
+}
+
+.titulo-sobre-mim {
+  font-size: 2.1rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.texto-do-sobre-mim {
+  font-size:  20px;  
+  line-height: 27px;
+}
+
+footer {
+  background-color: rgb(10, 10, 25);
+  text-align: center;
+  padding: 1rem;
+}
+
+p {
+  font-size: 15px;
+}
+
+@media (width <= 449px) {
+  .nome-e-descricao {
+    flex-direction: column;
+  }
+}
